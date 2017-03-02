@@ -25,6 +25,7 @@ var list = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 var shoppingList : [String] = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
+// or var shoppingList : Array<String> = ["Bread", "Butter", "Cheese", "Lettuce", "Tomatoes"]
 
 
 
@@ -79,7 +80,7 @@ var afternoonAttendance: [Int] = [2, 10, 3, 15, 7]
  */
 // write your code here
 
-    var itemToPrint = shoppingList[2]
+    var itemToPrint = shoppingList[1]
     print(itemToPrint)
 
 
@@ -124,7 +125,7 @@ func lifesEssential(ingredients:[String]) -> Bool{
 
 
 
-print(lifesEssential(shoppingList))
+print(lifesEssential(ingredients: shoppingList))
 
 
 
@@ -135,7 +136,7 @@ print(lifesEssential(shoppingList))
 // write your code here
 
 
-print(lifesEssential(dessertList))
+print(lifesEssential(ingredients: dessertList))
 
 
 //: On solution branch, there should be a link here to the solution file.
